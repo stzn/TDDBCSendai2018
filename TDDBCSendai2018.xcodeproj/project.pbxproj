@@ -13,6 +13,8 @@
 		D6190939217ADE6700DD98B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6190938217ADE6700DD98B6 /* Assets.xcassets */; };
 		D619093C217ADE6700DD98B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D619093A217ADE6700DD98B6 /* LaunchScreen.storyboard */; };
 		D6190947217ADE6700DD98B6 /* TDDBCSendai2018Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6190946217ADE6700DD98B6 /* TDDBCSendai2018Tests.swift */; };
+		D6190952217AE30400DD98B6 /* PurelyImaginaryNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6190951217AE30400DD98B6 /* PurelyImaginaryNumberTests.swift */; };
+		D6190954217AE3FF00DD98B6 /* PurelyImaginaryNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6190953217AE3FF00DD98B6 /* PurelyImaginaryNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		D6190942217ADE6700DD98B6 /* TDDBCSendai2018Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDBCSendai2018Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6190946217ADE6700DD98B6 /* TDDBCSendai2018Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDBCSendai2018Tests.swift; sourceTree = "<group>"; };
 		D6190948217ADE6700DD98B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6190951217AE30400DD98B6 /* PurelyImaginaryNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurelyImaginaryNumberTests.swift; sourceTree = "<group>"; };
+		D6190953217AE3FF00DD98B6 /* PurelyImaginaryNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurelyImaginaryNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 				D6190938217ADE6700DD98B6 /* Assets.xcassets */,
 				D619093A217ADE6700DD98B6 /* LaunchScreen.storyboard */,
 				D619093D217ADE6700DD98B6 /* Info.plist */,
+				D6190953217AE3FF00DD98B6 /* PurelyImaginaryNumber.swift */,
 			);
 			path = TDDBCSendai2018;
 			sourceTree = "<group>";
@@ -92,6 +97,7 @@
 			children = (
 				D6190946217ADE6700DD98B6 /* TDDBCSendai2018Tests.swift */,
 				D6190948217ADE6700DD98B6 /* Info.plist */,
+				D6190951217AE30400DD98B6 /* PurelyImaginaryNumberTests.swift */,
 			);
 			path = TDDBCSendai2018Tests;
 			sourceTree = "<group>";
@@ -197,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6190954217AE3FF00DD98B6 /* PurelyImaginaryNumber.swift in Sources */,
 				D6190934217ADE6600DD98B6 /* ViewController.swift in Sources */,
 				D6190932217ADE6600DD98B6 /* AppDelegate.swift in Sources */,
 			);
@@ -206,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6190952217AE30400DD98B6 /* PurelyImaginaryNumberTests.swift in Sources */,
 				D6190947217ADE6700DD98B6 /* TDDBCSendai2018Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
